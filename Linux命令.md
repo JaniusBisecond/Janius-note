@@ -50,7 +50,7 @@ passwd <用户名>     #设置密码
 vim /etc/sudoers
 ```
 
-![image-20221004171330324](https://github.com/JaniusBisecond/Janius-note/blob/master/images/Linux命令/image-20221004171330324.png)
+![image-20221004171330324](https://github.com/JaniusBisecond/Janius-note/blob/online/images/Linux命令/image-20221004171330324.png)
 
 删除用户
 
