@@ -111,13 +111,13 @@ git commit -m '附带的信息'
 
 先在Github上创建一个仓库
 
-![image-20220530170050538](https://github.com/JaniusBisecond/Janius-note/blob/master/images/Git/image-20220530170050538.png)
+![image-20220530170050538](https://github.com/JaniusBisecond/Janius-note/blob/online/images/Git/image-20220530170050538.png)
 
-![image-20220530170100226](https://github.com/JaniusBisecond/Janius-note/blob/master/images/Git/image-20220530170100226.png)
+![image-20220530170100226](https://github.com/JaniusBisecond/Janius-note/blob/online/images/Git/image-20220530170100226.png)
 
 创建好仓库后，自动跳转到该页面，记下红色方框内容，我们需要它来配置远端仓库
 
-![image-20220530170229911](https://github.com/JaniusBisecond/Janius-note/blob/master/images/Git/image-20220530170229911.png)
+![image-20220530170229911](https://github.com/JaniusBisecond/Janius-note/blob/online/images/Git/image-20220530170229911.png)
 
 ## 设置Git Remote
 
@@ -145,13 +145,13 @@ git remote rm <RemoteName>
 git push origin master
 ```
 
-再次刷新GitHub页面，就会发现文件已经被提交上去了。![image-20220530171905966](https://github.com/JaniusBisecond/Janius-note/blob/master/images/Git/image-20220530171905966.png)
+再次刷新GitHub页面，就会发现文件已经被提交上去了。![image-20220530171905966](https://github.com/JaniusBisecond/Janius-note/blob/online/images/Git/image-20220530171905966.png)
 
 刚刚命令中的origin是刚刚设置好的remote，而master是分支(branch)了。如果之前使用过git status，就会发现有一条提示叫做“On branch master”，当然在GitHub页面上也能清楚的看到一个叫'branch'的按钮，点击进去就可以看到当前仓库的分支。
 
-![image-20220530173203019](https://github.com/JaniusBisecond/Janius-note/blob/master/images/Git/image-20220530173203019.png)
+![image-20220530173203019](https://github.com/JaniusBisecond/Janius-note/blob/online/images/Git/image-20220530173203019.png)
 
-![image-20220530173228393](https://github.com/JaniusBisecond/Janius-note/blob/master/images/Git/image-20220530173228393.png)
+![image-20220530173228393](https://github.com/JaniusBisecond/Janius-note/blob/online/images/Git/image-20220530173228393.png)
 
 接下来就创建一个新的分支。
 
@@ -215,11 +215,11 @@ git push origin newbranch
 
 可以在Github上看到一个显眼的提示，注意我这里已经进入到了newbranch分支了，可以看到多了一个branchfile.md
 
-![image-20220530174722891](https://github.com/JaniusBisecond/Janius-note/blob/master/images/Git/image-20220530174722891.png)
+![image-20220530174722891](https://github.com/JaniusBisecond/Janius-note/blob/online/images/Git/image-20220530174722891.png)
 
 再一次切回master，而master中是没有branchfile的
 
-![image-20220530175134171](https://github.com/JaniusBisecond/Janius-note/blob/master/images/Git/image-20220530175134171.png)
+![image-20220530175134171](https://github.com/JaniusBisecond/Janius-note/blob/online/images/Git/image-20220530175134171.png)
 
 接下来再次创建两个分支
 
@@ -287,7 +287,7 @@ git push origin newbranch
 
 直接在GitHub上添加一个文件
 
-![image-20220530201913223](https://github.com/JaniusBisecond/Janius-note/blob/master/images/Git/image-20220530201913223.png)
+![image-20220530201913223](https://github.com/JaniusBisecond/Janius-note/blob/online/images/Git/image-20220530201913223.png)
 
 本地仓库比远程仓库上少一个repo文件
 
