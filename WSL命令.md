@@ -46,8 +46,8 @@ WSL导出
 
 ```shell
 wsl --shutdown
-wsl --unregister Ubuntu 
-wsl --export Ubuntu D:\WSL\package\ubuntu_export.tar	#将Ubuntu导出为ubuntu_export.tar							   
+wsl --export Ubuntu D:\WSL\package\ubuntu_export.tar	#将Ubuntu(子系统名称)导出为ubuntu_export.tar	 可以通过 wsl --list 命令查看子系统名称
+wsl --unregister Ubuntu 				   					   
 ```
 
 WSL导入
