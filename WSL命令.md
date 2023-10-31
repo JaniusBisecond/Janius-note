@@ -57,6 +57,11 @@ wsl --import Ubuntu D:\WSL D:\WSL\package\ubuntu_export.tar --version 2   #导�
 Ubuntu config --default-user janius	#设置默认用户(原系统里存在用户)
 ```
 
+# WSL中命令的特殊处理
+`tail -f` 无法实时更新，需要加上参数`—disable-inotify`
+```shell
+tail -f —disable-inotify xxxx.log
+```
 
 
 # 错误
